@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltFin Academy - Capacitación Ejecutiva en Finanzas No Bancarias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.min.js" crossorigin="anonymous"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-accent { background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%); }
+        .gradient-card { background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%); }
+        .tab-active { border-bottom: 3px solid #2563EB; color: #2563EB; font-weight: 600; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4 text-center border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap text-blue-400"></i>
+                <strong>Portal 100% Educativo:</strong> AltFin Academy es una institución privada de formación ejecutiva. No somos una entidad bancaria ni financiera.
+            </span>
+            <a href="#disclaimer" class="underline text-slate-400 hover:text-white text-[11px]">Ver Términos Educativos & Políticas</a>
+        </div>
+    </div>
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md shadow-blue-500/20">
+                        AFA
+                    </div>
+                    <div>
+                        <span class="text-xl font-extrabold tracking-tight text-slate-900 block leading-none">AltFin <span class="text-blue-600">Academy</span></span>
+                        <span class="text-[10px] text-slate-500 font-medium uppercase tracking-wider block mt-0.5">Finanzas No Bancarias</span>
+                    </div>
+                </div>
+
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                    <a href="#programa" class="hover:text-blue-600 transition-colors">Plan de Estudios</a>
+                    <a href="#simulador" class="hover:text-blue-600 transition-colors">Simulador Técnico</a>
+                    <a href="#testimonios" class="hover:text-blue-600 transition-colors">Testimonios</a>
+                    <a href="#metodologia" class="hover:text-blue-600 transition-colors">Metodología</a>
+                    <a href="#faq" class="hover:text-blue-600 transition-colors">Preguntas Frecuentes</a>
+                </nav>
+
+                <div class="flex items-center gap-3">
+                    <a href="#registro" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-5 py-2.5 rounded-lg shadow-sm hover:shadow transition-all duration-200">
+                        Inscribirse al Curso
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-slate-900 text-white py-16 md:py-24 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-award"></i> Capacitación Técnica Ejecutiva
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+                        Especialización en Estrategias de <span class="text-blue-400">Financiamiento No Bancario</span>
+                    </h1>
+                    
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                        Plataforma educativa dedicada a la capacitación técnica sobre alternativas de liquidez, finanzas no bancarias y estrategia corporativa para profesionales, consultores y líderes empresariales.
+                    </p>
+
+                    <div class="pt-2 grid sm:grid-cols-2 gap-4">
+                        <div class="flex items-start gap-3 bg-slate-800/60 p-3.5 rounded-xl border border-slate-700/50">
+                            <i class="fa-solid fa-book-open-reader text-blue-400 text-xl mt-0.5"></i>
+                            <div>
+                                <h2 class="text-sm font-semibold text-white">Casos de Estudio Reales</h2>
+                                <p class="text-xs text-slate-400">Análisis técnico de factoring, leasing y estructuración privada.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-slate-800/60 p-3.5 rounded-xl border border-slate-700/50">
+                            <i class="fa-solid fa-chart-line text-blue-400 text-xl mt-0.5"></i>
+                            <div>
+                                <h2 class="text-sm font-semibold text-white">Modelación Financiera</h2>
+                                <p class="text-xs text-slate-400">Simulación de flujos de caja y optimización del capital de trabajo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 flex flex-col sm:flex-row gap-4">
+                        <a href="#registro" class="inline-flex justify-center items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-bold px-7 py-3.5 rounded-xl transition-all shadow-lg shadow-blue-600/30">
+                            <span>Solicitar Plan de Estudios</span>
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                        <a href="#simulador" class="inline-flex justify-center items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold px-6 py-3.5 rounded-xl transition-all">
+                            <i class="fa-solid fa-calculator text-slate-400"></i>
+                            <span>Probar Simulador Educativo</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tarjeta de Información Académica -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white text-slate-900 rounded-2xl p-6 shadow-2xl border border-slate-100">
+                        <div class="flex justify-between items-center border-b border-slate-100 pb-4 mb-4">
+                            <div>
+                                <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider block">Próxima Cohorte Exec</span>
+                                <h2 class="text-xl font-bold text-slate-900">Programa Certificado</h2>
+                            </div>
+                            <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded-full">Cupos Limitados</span>
+                        </div>
+
+                        <ul class="space-y-3.5 text-sm text-slate-600 mb-6">
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+                                <span>Duración: 6 Semanas (Modalidad 100% Online)</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+                                <span>Sesiones en vivo y ejercicios estructurados</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+                                <span>Certificado de Acreditación Académica</span>
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+                                <span>Material descargable y plantillas editables</span>
+                            </li>
+                        </ul>
+
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200/80 mb-6 text-xs text-slate-500 leading-relaxed">
+                            <i class="fa-solid fa-circle-info text-blue-600 mr-1"></i>
+                            <strong>Aviso Importante:</strong> Este programa es puramente formativo. No comercializamos instrumentos financieros ni otorgamos financiamiento directo.
+                        </div>
+
+                        <a href="#registro" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl transition-colors">
+                            Reservar Cupo Informativo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-50 border-y border-blue-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-blue-200/60 flex flex-col md:flex-row items-center gap-6">
+                <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-full flex items-center justify-center shrink-0 text-xl font-bold">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="text-slate-700 text-sm leading-relaxed">
+                    <h2 class="text-base font-bold text-slate-900 mb-1">Aviso Institucional y Marco Operativo</h2>
+                    <p class="text-xs md:text-sm">
+                        <strong>AltFin Academy</strong> es una empresa privada de oferta académica y capacitación ejecutiva no vinculada a entidades bancarias. Los contenidos exhibidos en este portal web (incluyendo artículos, simuladores, casos de estudio y testimonios) tienen un carácter estrictamente educativo e informativo. Nuestro plan de estudios capacita a profesionales e instituciones en herramientas de financiamiento complementarias, operadas fuera de la banca comercial tradicional mediante esquemas legales y estructurados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programa" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 text-xs font-bold tracking-widest uppercase mb-2 block">Estructura Académica</span>
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Plan de Estudios Especializado</h2>
+                <p class="mt-4 text-slate-600 text-base">
+                    Diseñado para comprender los mecanismos formales y normativos de la liquidez no bancaria aplicados al crecimiento corporativo.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Módulo 1 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-lg font-bold mb-4">
+                        01
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Fundamentos de Liquidez No Bancaria</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Análisis comparativo entre el sistema bancario tradicional y los esquemas complementarios privados de liquidez.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-200 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Diagnóstico de necesidades de flujo de caja</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Marco legal y contractual de pagarés y facturas</li>
+                    </ul>
+                </div>
+
+                <!-- Módulo 2 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-lg font-bold mb-4">
+                        02
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Estructuración de Factoring y Leasing</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Capacitación técnica en cesión de derechos de crédito empresarial y arrendamiento financiero operativo.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-200 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Cálculo de tasas de descuento comercial</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Gestión del riesgo de cobranza y garantías</li>
+                    </ul>
+                </div>
+
+                <!-- Módulo 3 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-lg font-bold mb-4">
+                        03
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Vehículos Financieros Privados</h3>
+                    <p class="text-slate-600 text-sm mb-4 leading-relaxed">
+                        Introducción a los fondos de inversión privada, fideicomisos comerciales y emisión de deuda corporativa no bursátil.
+                    </p>
+                    <ul class="text-xs text-slate-500 space-y-2 border-t border-slate-200 pt-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Gobernanza y transparencia en estructuración</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-angle-right text-blue-500"></i> Evaluación de viabilidad de proyectos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 space-y-4">
+                    <span class="text-blue-400 text-xs font-bold tracking-widest uppercase block">Herramienta Didáctica</span>
+                    <h2 class="text-3xl font-bold sm:text-4xl">Simulador Pedagógico de Descuento de Facturas</h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Utilice esta calculadora técnica para comprender cómo los profesionales evalúan el costo financiero teórico de operaciones de adelantamiento de liquidez sobre cuentas por cobrar en el sector privado.
+                    </p>
+                    <div class="p-4 bg-slate-800/80 rounded-xl border border-slate-700 text-xs text-slate-400">
+                        <p><i class="fa-solid fa-triangle-exclamation text-amber-400 mr-1"></i> <strong>Nota Didáctica:</strong> Este simulador es exclusivamente una herramienta pedagógica para ejercicios de clase y no constituye una oferta de cotización o servicio financiero real.</p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-slate-800 p-6 md:p-8 rounded-2xl border border-slate-700 shadow-xl">
+                    <h3 class="text-xl font-bold mb-6 text-white flex items-center gap-2">
+                        <i class="fa-solid fa-calculator text-blue-400"></i> Caso Práctico de Estudio
+                    </h3>
+
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <label for="monto" class="text-slate-300 font-medium">Monto Nominal de Cuentas por Cobrar ($):</label>
+                                <span id="montoVal" class="font-bold text-blue-400">$50,000</span>
+                            </div>
+                            <input type="range" id="monto" min="10000" max="200000" step="5000" value="50000" class="w-full accent-blue-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <label for="plazo" class="text-slate-300 font-medium">Plazo de Vencimiento Estimado (Días):</label>
+                                <span id="plazoVal" class="font-bold text-blue-400">60 días</span>
+                            </div>
+                            <input type="range" id="plazo" min="30" max="120" step="15" value="60" class="w-full accent-blue-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-sm mb-2">
+                                <label for="tasa" class="text-slate-300 font-medium">Tasa Teórica de Descuento Mensual (%):</label>
+                                <span id="tasaVal" class="font-bold text-blue-400">2.5%</span>
+                            </div>
+                            <input type="range" id="tasa" min="1.0" max="5.0" step="0.1" value="2.5" class="w-full accent-blue-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-700 grid grid-cols-2 gap-4 text-center">
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <span class="text-xs text-slate-400 block mb-1">Costo Financiero Teórico</span>
+                                <span id="resCosto" class="text-xl font-bold text-amber-400">$2,500</span>
+                            </div>
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <span class="text-xs text-slate-400 block mb-1">Liquidez Neta Estimada</span>
+                                <span id="resNeto" class="text-xl font-bold text-emerald-400">$47,500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="py-16 md:py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-600 text-xs font-bold tracking-widest uppercase mb-2 block">Experiencias Universitarias y Ejecutivas</span>
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Testimonios de Egresados de la Academia</h2>
+                <p class="mt-4 text-slate-600 text-base">
+                    Conozca cómo nuestros alumnos aplican la metodología académica en sus respectivas organizaciones y proyectos de consultoría.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed italic mb-6">
+                            "El diplomado me brindó una visión clara y objetiva sobre la estructuración de capital de trabajo no tradicional. Las clases sobre factoring y análisis de riesgo nos permitieron optimizar los procesos de nuestra empresa familiar."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-100">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150" alt="Fotografía de la estudiante Sofía Mendoza" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h3 class="text-sm font-bold text-slate-900">Sofía Mendoza</h3>
+                            <p class="text-xs text-slate-500">Directora Administrativa, Sector Textil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed italic mb-6">
+                            "Excelente nivel técnico del cuerpo docente. Aprendí a evaluar alternativas legales de financiamiento privado para proyectos de infraestructura sin depender exclusivamente del crédito bancario tradicional."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-100">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150" alt="Fotografía del alumno Carlos Eduardo Rivas" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h3 class="text-sm font-bold text-slate-900">Carlos E. Rivas</h3>
+                            <p class="text-xs text-slate-500">Consultor Financiero Independiente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonio 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-1 text-amber-400 text-sm mb-4">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star font-regular text-slate-300"></i>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed italic mb-6">
+                            "La capacitación en simuladores teóricos y análisis de casos fue clave. Nos aclaró los marcos normativos vigentes para operar mediante esquemas no bancarios con total transparencia y rigurosidad."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-100">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150" alt="Fotografía de la egresada Valeria Torres" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <h3 class="text-sm font-bold text-slate-900">Valeria Torres</h3>
+                            <p class="text-xs text-slate-500">Gerente de Operaciones Logísticas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="metodologia" class="py-16 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-blue-600 text-xs font-bold tracking-widest uppercase mb-2 block">Metodología de Enseñanza</span>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6">Educación Flexible con Rigor Académico</h2>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                        Combinamos contenido multimedia síncrono y asíncrono con talleres prácticos guiados por instructores senior con trayectoria en estructuración corporativa.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center shrink-0 mt-1 font-bold text-sm">1</div>
+                            <div>
+                                <h3 class="text-sm font-bold text-slate-900">Aulas Virtuales Interactivas</h3>
+                                <p class="text-xs text-slate-500">Acceso 24/7 a casos de estudio descargables, plantillas de análisis y grabaciones en HD.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center shrink-0 mt-1 font-bold text-sm">2</div>
+                            <div>
+                                <h3 class="text-sm font-bold text-slate-900">Talleres de Ejercitación Práctica</h3>
+                                <p class="text-xs text-slate-500">Simulación guiada de contratos de cesión de derechos y evaluación de flujos de efectivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800" alt="Aula de capacitación de AltFin Academy" class="rounded-2xl shadow-xl border border-slate-200">
+                    <div class="absolute -bottom-6 -left-6 bg-slate-900 text-white p-4 rounded-xl shadow-lg hidden sm:block max-w-xs">
+                        <p class="text-xs font-medium"><i class="fa-solid fa-graduation-cap text-blue-400 mr-1"></i> Formación técnica para empresas que buscan diversificar sus conocimientos de financiamiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="registro" class="py-16 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-lg border border-slate-200 p-8">
+                <div class="text-center mb-8">
+                    <span class="text-blue-600 text-xs font-bold tracking-widest uppercase block mb-1">Inscripciones Abiertas</span>
+                    <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Solicitar Información sobre el Curso</h2>
+                    <p class="text-slate-500 text-sm mt-2">Complete el formulario para recibir el plan temático detallado y costos de matrícula.</p>
+                </div>
+
+                <form id="leadForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="nombre" class="block text-xs font-semibold text-slate-700 uppercase mb-1">Nombre Completo *</label>
+                            <input type="text" id="nombre" required placeholder="Ej. Ana María Gómez" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-xs font-semibold text-slate-700 uppercase mb-1">Correo Electrónico *</label>
+                            <input type="email" id="email" required placeholder="ana.gomez@empresa.com" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="telefono" class="block text-xs font-semibold text-slate-700 uppercase mb-1">Teléfono de Contacto</label>
+                            <input type="tel" id="telefono" placeholder="+57 300 000 0000" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none">
+                        </div>
+                        <div>
+                            <label for="perfil" class="block text-xs font-semibold text-slate-700 uppercase mb-1">Perfil Profesional</label>
+                            <select id="perfil" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none bg-white">
+                                <option value="empresario">Empresario / Director</option>
+                                <option value="consultor">Consultor / Asesor</option>
+                                <option value="estudiante">Estudiante / Profesional</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="text-xs text-slate-500 bg-slate-50 p-3 rounded-lg border border-slate-200">
+                        <label class="flex items-start gap-2 cursor-pointer">
+                            <input type="checkbox" required class="mt-0.5 rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+                            <span>Acepto recibir información académica relevante sobre programas formativos de AltFin Academy. Sus datos no serán compartidos con terceros.</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-md text-sm">
+                        Enviar Solicitud Académica
+                    </button>
+                </form>
+
+                <div id="formSuccess" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-center text-sm">
+                    <i class="fa-solid fa-circle-check text-lg mr-2"></i>
+                    <strong>¡Solicitud recibida!</strong> Nos pondremos en contacto pronto con el plan de estudios completo.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-slate-900 text-center mb-8">Preguntas Frecuentes sobre la Academia</h2>
+            
+            <div class="space-y-4">
+                <div class="border border-slate-200 rounded-xl p-4">
+                    <h3 class="font-bold text-sm text-slate-900 mb-1">¿AltFin Academy otorga créditos o préstamos empresariales?</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        No. Somos estrictamente una entidad educativa privada. No prestamos dinero, no captamos recursos ni otorgamos líneas crediticias de ninguna índole.
+                    </p>
+                </div>
+                <div class="border border-slate-200 rounded-xl p-4">
+                    <h3 class="font-bold text-sm text-slate-900 mb-1">¿El curso constituye asesoría de inversión regulada?</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        No. Las clases, materiales y contenidos son puramente didácticos e informativos. Ningún participante debe interpretar la formación brindada como asesoría de inversión personalizada ni recomendación bursátil regulada.
+                    </p>
+                </div>
+                <div class="border border-slate-200 rounded-xl p-4">
+                    <h3 class="font-bold text-sm text-slate-900 mb-1">¿Qué tipo de certificación se otorga?</h3>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Al completar con éxito los módulos y casos prácticos, se entrega una constancia de participación y capacitación ejecutiva emitida por AltFin Academy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="disclaimer" class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+            
+            <!-- Descargos Obligatorios Requeridos por el Usuario y Políticas de Google Ads -->
+            <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800 leading-relaxed space-y-3 text-slate-300">
+                <h4 class="text-white font-bold text-sm uppercase tracking-wider flex items-center gap-2">
+                    <i class="fa-solid fa-scale-balanced text-blue-400"></i> Descargo Legal y Términos Académicos Regulatorios
+                </h4>
+                <p>
+                    No ofrecemos, garantizamos ni intermediamos préstamos de dinero, créditos de consumo, hipotecas, líneas de crédito bancarias ni captación de ahorros del público de forma directa. Ningún participante debe interpretar la formación brindada como asesoría de inversión personalizada ni recomendación bursátil regulada.
+                </p>
+                <p>
+                    <strong>AltFin Academy</strong> es una empresa privada de oferta académica y capacitación ejecutiva no vinculada a entidades bancarias. Los contenidos exhibidos en este portal web (incluyendo artículos, simuladores, casos de estudio y testimonios) tienen un carácter strictly educativo e informativo.
+                </p>
+                <p>
+                    Nuestro plan de estudios capacita a profesionales e instituciones en herramientas de financiamiento complementarias, operadas fuera de la banca comercial tradicional mediante esquemas legales y estructurados. Plataforma educativa dedicada a la capacitación técnica sobre alternativas de liquidez, finanzas no bancarias y estrategia corporativa.
+                </p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-slate-800 pt-8 text-slate-500">
+                <p>© 2026 AltFin Academy. Todos los derechos reservados. Portal de Educación Ejecutiva Privada.</p>
+                <div class="flex gap-6">
+                    <a href="#disclaimer" class="hover:text-slate-300 transition-colors">Políticas de Privacidad</a>
+                    <a href="#disclaimer" class="hover:text-slate-300 transition-colors">Términos de Servicio</a>
+                    <a href="#disclaimer" class="hover:text-slate-300 transition-colors">Cumplimiento Publicitario</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        // Función para actualizar los datos del simulador didáctico
+        function updateSimulator() {
+            const monto = parseFloat(document.getElementById('monto').value);
+            const plazo = parseInt(document.getElementById('plazo').value);
+            const tasaMensual = parseFloat(document.getElementById('tasa').value);
+
+            // Actualización de Etiquetas
+            document.getElementById('montoVal').innerText = '$' + monto.toLocaleString('en-US');
+            document.getElementById('plazoVal').innerText = plazo + ' días';
+            document.getElementById('tasaVal').innerText = tasaMensual.toFixed(1) + '%';
+
+            // Cálculo teórico pedagógico
+            const tasaDiaria = (tasaMensual / 100) / 30;
+            const costoTeorico = monto * tasaDiaria * plazo;
+            const netoTeorico = monto - costoTeorico;
+
+            // Renderizado de Resultados
+            document.getElementById('resCosto').innerText = '$' + Math.round(costoTeorico).toLocaleString('en-US');
+            document.getElementById('resNeto').innerText = '$' + Math.round(netoTeorico).toLocaleString('en-US');
+        }
+
+        // Event Listeners para los controles deslizantes
+        document.getElementById('monto').addEventListener('input', updateSimulator);
+        document.getElementById('plazo').addEventListener('input', updateSimulator);
+        document.getElementById('tasa').addEventListener('input', updateSimulator);
+
+        // Envío simulado del formulario de información
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            document.getElementById('leadForm').reset();
+            const successBox = document.getElementById('formSuccess');
+            successBox.classList.remove('hidden');
+            setTimeout(() => {
+                successBox.classList.add('hidden');
+            }, 6000);
+        }
+
+        // Inicialización
+        window.onload = function() {
+            updateSimulator();
+        };
+    </script>
+</body>
+</html>
